@@ -29,7 +29,7 @@ Choisisser les étapes suivantes
 
 ![Screenshot_20230605_102756](https://github.com/xschahl/Tiktok-Angular/assets/91027790/03c5f763-3a2d-44d5-a133-51ac00ece47d)
 
-## Lancer l'application Angular (Web)
+## Lancer l'application Angular
 
 Entrer dans le dossier de l'application
 ```
