@@ -1,4 +1,4 @@
-# Tiktok-Angular
+# TikTok-Angular
 
 ## Accéder à la Documentation officielle Angular
 
