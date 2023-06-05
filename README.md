@@ -33,7 +33,7 @@ Choisisser les étapes suivantes
 
 Entrer dans le dossier de l'application
 ```
-cd tiktok
+cd TikTok
 ```
 
 Lancer l'application
