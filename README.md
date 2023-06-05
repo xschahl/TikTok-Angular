@@ -22,7 +22,7 @@ npm install -g @angular/cli
 
 Créer le project
 ```
-ng new tiktok
+ng new TikTok
 ```
 
 Choisisser les étapes suivantes
