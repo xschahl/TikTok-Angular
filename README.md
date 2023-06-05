@@ -1,5 +1,19 @@
 # Tiktok-Angular
+
+## Accéder à la Documentation officielle Angular
+
+https://angular.io/docs
+
 ## Créer une application Angular
+
+Vérification de la version de NPM
+```
+npm -v
+```
+Si aucune version n'est affiché
+```
+sudo apt install npm
+```
 
 Installer Angular CLI
 ```
@@ -11,20 +25,9 @@ Créer le project
 ng new tiktok
 ```
 
-Choisisser les étapes suivantes :
+Choisisser les étapes suivantes
 
 ![Screenshot_20230605_102756](https://github.com/xschahl/Tiktok-Angular/assets/91027790/03c5f763-3a2d-44d5-a133-51ac00ece47d)
-
-## Ajouter la version mobile de l'application
-
-Installer le paquet capacitor
-```
-ng add @capacitor/angular
-```
-
-Choisisser les étapes suivantes :
-
-![Screenshot_20230605_104100](https://github.com/xschahl/Tiktok-Angular/assets/91027790/d9101b65-e225-480e-a733-ae4288c33136)
 
 ## Lancer l'application Angular (Web)
 
