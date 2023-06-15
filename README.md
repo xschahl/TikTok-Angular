@@ -22,7 +22,7 @@ npm install -g @angular/cli
 
 Créer le project
 ```
-ng new TikTok
+ng new app
 ```
 
 Choisisser les étapes suivantes
@@ -33,7 +33,7 @@ Choisisser les étapes suivantes
 
 Entrer dans le dossier de l'application
 ```
-cd TikTok
+cd app
 ```
 
 Générer le composant
@@ -45,7 +45,7 @@ ng generate component name
 
 Entrer dans le dossier de l'application
 ```
-cd TikTok
+cd app
 ```
 
 Générer le service
@@ -57,7 +57,7 @@ ng generate service name
 
 Entrer dans le dossier de l'application
 ```
-cd TikTok
+cd app
 ```
 
 Lancer l'application
