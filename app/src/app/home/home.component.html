@@ -1,0 +1,26 @@
+<div class="top-left">
+    <button class="logout-button" (click)="logout()">Logout</button>
+  </div>
+  <div class="top-right">
+    <label for="fileInput" class="upload-button">
+      <span>Upload Video</span>
+      <input id="fileInput" type="file" (change)="uploadVideo($event)" accept="video/*">
+    </label>
+    <div class="progress-bar-container">
+      <div class="progress-bar" [style.width]="uploadProgress + '%'"></div>
+    </div>
+    <p>Upload Progress: {{ uploadProgress.toPrecision(3) }}%</p>
+    <div *ngIf="videos | async as urls" class="button-container">
+      <button class="previous-button" (click)="previousVideo()" [class.disabled]="currentIndex == 0">Previous</button>
+      <button class="next-button" (click)="nextVideo()" [class.disabled]="currentIndex >= (urls.length - 1)">Next</button>
+    </div>
+  </div>
+  <div class="video-container" *ngIf="videos | async as urls">
+    <div class="logo-container">
+      <!-- Add your logo image or content here -->
+      <img src="assets/tiktok-logo.png" alt="Logo">
+    </div>
+    <video #videoPlayer loop controls autoplay name="media">
+      <source [src]="urls[this.currentIndex]" type="video/mp4">
+    </video>
+  </div>

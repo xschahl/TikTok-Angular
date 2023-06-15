@@ -1,0 +1,138 @@
+.top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 8px 16px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 8px;
+}
+
+.upload-button span {
+    display: inline-block;
+    pointer-events: none;
+}
+
+.upload-button input[type="file"] {
+    position: absolute;
+    left: -9999px;
+}
+
+.upload-button:hover {
+    background-color: rgb(0, 162, 255);
+}
+
+.upload-button:focus {
+    outline: none;
+}
+
+.upload-button:active {
+    background-color: blue;
+}
+
+.logout-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #f44336;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #d32f2f;
+}
+
+.logout-button:focus {
+    outline: none;
+}
+
+.logout-button:active {
+    background-color: #b71c1c;
+}
+
+.progress-bar-container {
+    width: 100%;
+    height: 8px;
+    background-color: #ccc;
+    margin-top: 8px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: blue;
+}
+
+.video-container {
+    display: flex;
+    flex-direction: column; /* Arrange the logo and video in a column */
+    justify-content: center;
+    align-items: center; /* Vertically center the content */
+    height: 100vh; /* Set a height for the container to occupy the full viewport height */
+}
+
+.logo-container {
+    margin-bottom: 10px; /* Add some margin below the logo */
+}
+
+.video-container video {
+    margin: 0 auto; /* Center the video horizontally within the container */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  
+  .previous-button,
+  .next-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .previous-button {
+    margin-right: 8px;
+  }
+  
+  .previous-button:hover,
+  .next-button:hover {
+    background-color: rgb(0, 162, 255);
+  }
+  
+  .previous-button:focus,
+  .next-button:focus {
+    outline: none;
+  }
+  
+  .previous-button:active,
+  .next-button:active {
+    background-color: blue;
+  }
+  
+  .disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+  
